@@ -1,0 +1,19 @@
+{
+  "name": "mdnsearcherbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "Andrea Simone Costa <andrysimo1997@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^15.0.0",
+    "dotenv": "^7.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "telegraf": "^3.29.0"
+  }
+}
